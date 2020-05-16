@@ -6,7 +6,7 @@
 # For performance tuning, assign the container memory and give a percentage of it to the JVM.
 
 # Using version 2 as 3 does not support resource constraint options (cpu_*, mem_* limits) for non swarm mode in Compose
-version: "2"
+version: "2.4"
 
 services:
     alfresco:
